@@ -17,8 +17,8 @@ HEADERS = {
 }
 
 # Database path (change to "chat_history.db" for local dev if needed)
-DB_PATH = "/data/chat_history.db"  # for Render persistent storage
-# DB_PATH = "chat_history.db"  # for local testing
+# DB_PATH = "/data/chat_history.db"  # for Render persistent storage
+DB_PATH = "chat_history.db"  # for local testing
 
 # === Initialize DB if it doesn't exist ===
 def init_db():
